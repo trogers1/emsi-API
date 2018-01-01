@@ -1,0 +1,7 @@
+{
+    "dialect": "sqlite3",
+    "connection": {
+        "filename": "./data.sqlite"
+    }
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "emsi-api",
+  "version": "1.0.0",
+  "description": "A basic API supporting GET and POST using SQLite3",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Taylor Rogers",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "morgan": "^1.9.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
